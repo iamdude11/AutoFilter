@@ -25,9 +25,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-OWNER_ID = environ.get('OWNER_ID', '6497757690')
+API_ID = int(environ.get('API_ID', '15529802'))
+API_HASH = environ.get('API_HASH', '92bcb6aa798a6f1feadbc917fccb54d3')
+OWNER_ID = environ.get('OWNER_ID', '821215952')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -71,8 +71,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Lucy")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Anu1")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Eva_bot')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
@@ -103,14 +103,14 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_to_Download_7x/26') #
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Lucy_Filter_bot")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Adv3_Obot")
 BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
-BOT_ID = environ.get("BOT_ID", "6040310745")
+BOT_ID = environ.get("BOT_ID", "5277636826")
 S_GROUP = environ.get('S_GROUP', "weebs_support")
 S_CHANNEL = environ.get('S_CHANNEL', "codeflix_bots")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CodeFlix_Bots')
@@ -176,7 +176,7 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 
-# add premium logs channel id
+# add premium lTrchannel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001868871195'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
